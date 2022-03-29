@@ -1,9 +1,9 @@
 {
-  "name": "تليثون العرب",
-  "description": "تنصيب تليثون العرب الاصلي معرف قناتنا @iqthon",
-  "logo": "https://telegra.ph/file/277559574a1e241f5532e.jpg",
+  "name": "تليثون المهيب",
+  "description": "تنصيب تليثون المهيب الاصلي معرف قناتنا @I222J",
+  "logo": "https://telegra.ph/file/53676d4ce6cb2e4564395.jpg",
   "keywords": [    "plugin",    "modular",    "productivity"  ],
-  "repository": "https://github.com/Telethon-helper/Helper/",
+  "repository": "https://github.com/weall2022/almheb-help/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -38,7 +38,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "لاتـغيره! ",
-      "value": "Telethon-Ar",
+      "value": "almheb",
       "required": false
     }
   },
