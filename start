@@ -3,12 +3,12 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
+    if [[ $UPSTREAM_REPO == "almheb" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "Telethon-Ar" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3dlYWxsMjAyMi9XYWVsLVRlbGV0aG9uL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $UPSTREAM_REPO == "almheb" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3dlYWxsMjAyMi9XYWVsLVRlbGV0aG9uL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RlbGV0aG9uQXJhYi9UZWxldGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3dlYWxsMjAyMi9XYWVsLVRlbGV0aG9uL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
@@ -35,7 +35,7 @@ _setting_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $CATPATH
-    echo "جـاري الاسـتراد لـتليثون الـعرب  ..."
+    echo "جـاري الاسـتراد سورس المهيب  ..."
     echo "1
     "
 
